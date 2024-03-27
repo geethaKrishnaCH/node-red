@@ -7,7 +7,7 @@
         "info": ""
     },
     {
-        "id": "64f967d161c3fbe1",
+        "id": "bc461a87fffad9c9",
         "type": "tab",
         "label": "Flow 2",
         "disabled": false,
@@ -648,11 +648,73 @@
             "6837913f99da9e90"
         ],
         "x": 585,
-        "y": 160,
+        "y": 120,
         "wires": [
             [
                 "1f9b8303b9aff027"
             ]
         ]
+    },
+    {
+        "id": "463ded47e6e6be5e",
+        "type": "http in",
+        "z": "f6f2187d.f17ca8",
+        "name": "Test endpoint",
+        "url": "/test",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 430,
+        "y": 80,
+        "wires": [
+            [
+                "1f9b8303b9aff027"
+            ]
+        ]
+    },
+    {
+        "id": "b5a356c463d47796",
+        "type": "inject",
+        "z": "bc461a87fffad9c9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 80,
+        "wires": [
+            [
+                "e8fb2cb11236c229"
+            ]
+        ]
+    },
+    {
+        "id": "e8fb2cb11236c229",
+        "type": "debug",
+        "z": "bc461a87fffad9c9",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 80,
+        "wires": []
     }
 ]

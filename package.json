@@ -1,12 +1,15 @@
 {
-    "name": "leave-workflow",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
-    "dependencies": {},
-    "node-red": {
-        "settings": {
-            "flowFile": "flows.json",
-            "credentialsFile": "flows_cred.json"
-        }
+  "name": "leave-workflow",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-red-node-mysql": "^2.0.0",
+    "node-red-contrib-flow-manager": "^0.7.4"
+  },
+  "node-red": {
+    "settings": {
+      "flowFile": "flows.json",
+      "credentialsFile": "flows_cred.json"
     }
+  }
 }
