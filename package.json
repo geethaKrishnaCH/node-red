@@ -3,8 +3,9 @@
   "description": "A Node-RED Project",
   "version": "0.0.1",
   "dependencies": {
-    "node-red-node-mysql": "^2.0.0",
-    "node-red-contrib-flow-manager": "^0.7.4"
+    "node-red-contrib-advance-logger": "^1.0.2",
+    "node-red-contrib-flow-manager": "^0.7.4",
+    "node-red-node-mysql": "^2.0.0"
   },
   "node-red": {
     "settings": {

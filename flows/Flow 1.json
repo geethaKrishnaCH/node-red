@@ -457,13 +457,13 @@
     "name": "debug 11",
     "active": true,
     "tosidebar": true,
-    "console": false,
+    "console": true,
     "tostatus": false,
     "complete": "true",
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 800,
+    "x": 810,
     "y": 400,
     "wires": []
   },
@@ -585,13 +585,13 @@
     "name": "debug 10",
     "active": true,
     "tosidebar": true,
-    "console": false,
+    "console": true,
     "tostatus": false,
     "complete": "true",
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 620,
+    "x": 630,
     "y": 320,
     "wires": []
   },
@@ -657,7 +657,7 @@
     "upload": false,
     "swaggerDoc": "",
     "x": 430,
-    "y": 80,
+    "y": 120,
     "wires": [
       [
         "1f9b8303b9aff027"

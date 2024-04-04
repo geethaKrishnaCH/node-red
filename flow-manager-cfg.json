@@ -1,4 +1,16 @@
 {
   "filter": [],
-  "fileFormat": "json"
+  "fileFormat": "json",
+  "remoteDeploy": {
+    "remotes": [
+      {
+        "name": "Production",
+        "nrAddress": "http://localhost:1881"
+      },
+      {
+        "name": "Staging",
+        "nrAddress": "http://localhost:1882"
+      }
+    ]
+  }
 }
